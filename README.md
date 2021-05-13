@@ -12,12 +12,6 @@ In the twenty-first century, AI techniques have experienced a resurgence followi
 - [Writing Custom Layers and Models](tensorflow2-api/writing-new-layers-and-models-via-subclassing.ipynb)
 - [Save and Load Models](tensorflow2-api/save-and-load-models.ipynb)
 
-## Text Classification
-
-- [Toxic Span Recognition](text-classification/)
-- [Toxicity Comment Classification](text-classification/)
-- [Aspect Based Sentiment Classification](text-classification/)
-
 ## Time Series
 
 - [Stock Price Prediction](time-series/)
@@ -31,6 +25,12 @@ In the twenty-first century, AI techniques have experienced a resurgence followi
 ## Clustering
 
 - [Customer Segmentation](clustering/)
+
+## Text Classification
+
+- [Toxic Span Recognition](text-classification/)
+- [Toxicity Comment Classification](text-classification/)
+- [Aspect Based Sentiment Classification](text-classification/)
 
 ## Multi Modal
 
