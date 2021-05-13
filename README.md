@@ -32,6 +32,9 @@ In the twenty-first century, AI techniques have experienced a resurgence followi
 
 - [Customer Segmentation](clustering/)
 
+## Multi Modal
+
+- [Visual Question Answering](multi-modal/)
 
 [![Forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![Forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
