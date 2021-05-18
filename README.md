@@ -14,27 +14,34 @@ In the twenty-first century, AI techniques have experienced a resurgence followi
 
 ## Time Series
 
-- [Stock Price Prediction](time-series/)
 - [Sales Forecasting](time-series/)
 
 ## Predictive Analytics
 
-- [Customer Churn Prediction](predictive/)
-- [Customer Lifetime Value Prediction](predictive/)
+- [Customer Churn Prediction](predictive-analytics/)
+- [Customer Lifetime Value Prediction](predictive-analytics/)
 
 ## Clustering
 
 - [Customer Segmentation](clustering/)
 
+## Embeddings
+
+- [Word Embeddings - Bag of Words](embeddings/)
+- [Word Embeddings - Skip Gram](embeddings/)
+
 ## Text Classification
 
-- [Toxic Span Recognition](text-classification/)
 - [Toxicity Comment Classification](text-classification/)
 - [Aspect Based Sentiment Classification](text-classification/)
 
-## Multi Modal
+## Named Entity Recognition
 
-- [Visual Question Answering](multi-modal/)
+- [Toxic Span Recognition](named-entity-recognition/)
+
+## Image Classification
+
+- [MNIST Hand-Written Digit Recognition](image-classification/)
 
 [![Forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![Forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
