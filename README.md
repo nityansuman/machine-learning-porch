@@ -1,4 +1,4 @@
-# REPOSITORY 2021
+# Awesome AI
 
 Artificial intelligence, sometimes called machine intelligence, is intelligence demonstrated by machines, unlike the natural intelligence displayed by humans and animals.
 
