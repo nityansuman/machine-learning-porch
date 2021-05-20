@@ -8,9 +8,9 @@ In the twenty-first century, AI techniques have experienced a resurgence followi
 
 - [Sequential API](tensorflow2-api/sequential-model-api.ipynb)
 - [Functional API](tensorflow2-api/functional-model-api.ipynb)
-- [Train and Evaluate Model with Customization](tensorflow2-api/train-and-evaluate-with-customization.ipynb)
+- [Train and Evaluate Model with Customization](tensorflow2-api/train-and-evaluate-model.ipynb)
 - [Writing Custom Layers and Models](tensorflow2-api/writing-new-layers-and-models-via-subclassing.ipynb)
-- [Save and Load Models](tensorflow2-api/save-and-load-models.ipynb)
+- [Model run customizations](tensorflow2-api/model-run-customization.ipynb)
 
 ## Time Series
 
