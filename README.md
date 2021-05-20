@@ -32,16 +32,12 @@ In the twenty-first century, AI techniques have experienced a resurgence followi
 
 ## Text Classification
 
-- [Toxicity Comment Classification](text-classification/)
-- [Aspect Based Sentiment Classification](text-classification/)
-
-## Named Entity Recognition
-
-- [Toxic Span Recognition](named-entity-recognition/)
+- [Moview Review Classification Using RNN](text-classification/movie-review-classification-using-rnn.ipynb)
+- [Fine-tuning BERT for Aspect Based Sentiment Classification](text-classification/)
 
 ## Image Classification
 
-- [MNIST Hand-Written Digit Recognition](image-classification/)
+- [MNIST Hand-Written Digit Recognition](image-classification/handwritten-image-classification.ipynb)
 
 [![Forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![Forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
