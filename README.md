@@ -6,9 +6,7 @@ In the twenty-first century, AI techniques have experienced a resurgence followi
 
 **Welcome to my GitHub repository**
 
-I am a **Senior Data Scientist**. I code in Python.
-
-Here you will find some Machine Learning, Deep Learning, Natural Language Processing, Computer Vision, Time Series models and solution pipelines I developed.
+I am a **Senior Data Scientist**. I code in Python. Here you will find some Machine Learning, Deep Learning, Natural Language Processing, Computer Vision, Time Series models and pipelines I developed.
 
 ---
 
