@@ -6,11 +6,40 @@ In the twenty-first century, AI techniques have experienced a resurgence followi
 
 **Welcome to my GitHub repository**
 
-I am a **Senior Data Scientist**. I code in Python. Here you will find some Machine Learning, Deep Learning, Natural Language Processing, Computer Vision, Time Series models.
+Here you will find some Machine Learning, Deep Learning, Natural Language Processing, Computer Vision, Time Series models.
 
 ---
 
 ## Codebase
+
+### Natural Language Understanding
+
+Text classification (a.k.a. text categorization or text tagging) is the task of assigning a set of predefined categories to an open-ended text.
+
+- [IMDB Review Classification Using Convolutions](natural-language-understanding/imdb-review-classification-using-convolutions.ipynb)
+
+An embedding is a mapping of a discrete — categorical — variable to a vector of continuous numbers. In the context of neural networks, embeddings are low-dimensional, learned continuous vector representations of discrete variables.
+
+- [Word Embeddings - Skip Gram Model](natural-language-understanding/word2vec-skip-gram.ipynb)
+
+### Time Series
+
+A time series is a series of data points indexed (or listed or graphed) in time order.
+
+- [Sales Forecasting](time-series/)
+
+### Computer Vision
+
+Image classification (a.k.a. image categorization) is the task of assigning a set of predefined categories/labels to a groups of pixels or an image.
+
+- [MNIST Hand-Written Digit Recognition](computer-vision/handwritten-image-classification.ipynb)
+
+### Structured Data
+
+Predictive analytics is the branch of the advanced analytics which is used to make predictions about unknown events using tabulated data points.
+
+- [Customer Churn Prediction](structured-data/)
+- [Customer Lifetime Value Prediction](structured-data/)
 
 ### TensorFlow 2 API
 
@@ -21,39 +50,6 @@ TensorFlow is a free and open-source software library for machine learning. It c
 - [Train and Evaluate Model with Customization](tensorflow2-api/train-and-evaluate-model.ipynb)
 - [Writing Custom Layers and Models](tensorflow2-api/writing-new-layers-and-models-via-subclassing.ipynb)
 - [Model run customizations](tensorflow2-api/model-run-customization.ipynb)
-
-### Time Series
-
-A time series is a series of data points indexed (or listed or graphed) in time order.
-
-- [Sales Forecasting](time-series/)
-
-### Predictive Analytics
-
-Predictive analytics is the branch of the advanced analytics which is used to make predictions about unknown events using tabulated data points.
-
-- [Customer Churn Prediction](predictive-analytics/)
-- [Customer Lifetime Value Prediction](predictive-analytics/)
-- [Customer Segmentation](clustering/)
-
-### Embeddings
-
-An embedding is a mapping of a discrete — categorical — variable to a vector of continuous numbers. In the context of neural networks, embeddings are low-dimensional, learned continuous vector representations of discrete variables.
-
-- [Word Embeddings - Bag of Words](embeddings/)
-
-### Text Classification
-
-Text classification (a.k.a. text categorization or text tagging) is the task of assigning a set of predefined categories to an open-ended text.
-
-- [Moview Review Classification Using RNN](text-classification/movie-review-classification-using-rnn.ipynb)
-- [Fine-tuning BERT for Aspect Based Sentiment Classification](text-classification/)
-
-### Image Classification
-
-Image classification (a.k.a. image categorization) is the task of assigning a set of predefined categories/labels to a groups of pixels or an image.
-
-- [MNIST Hand-Written Digit Recognition](image-classification/handwritten-image-classification.ipynb)
 
 [![Forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![Forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
