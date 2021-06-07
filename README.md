@@ -20,26 +20,26 @@ Text classification (a.k.a. text categorization or text tagging) is the task of 
 
 An embedding is a mapping of a discrete — categorical — variable to a vector of continuous numbers. In the context of neural networks, embeddings are low-dimensional, learned continuous vector representations of discrete variables.
 
-- [Word Embeddings - Skip Gram Model](natural-language-understanding/word2vec-skip-gram.ipynb)
+- [Word Embeddings - Skip Gram Model](natural-language-understanding/skip-gram-word2vec-model.ipynb)
 
 ### Time Series
 
 A time series is a series of data points indexed (or listed or graphed) in time order.
 
-- [Sales Forecasting](time-series/)
+<!-- - [Sales Forecasting](time-series/) -->
+
+### Structured Data
+
+Predictive analytics is the branch of the advanced analytics which is used to make predictions about unknown events using tabulated data points.
+
+<!-- - [Customer Churn Prediction](structured-data/)
+- [Customer Lifetime Value Prediction](structured-data/) -->
 
 ### Computer Vision
 
 Image classification (a.k.a. image categorization) is the task of assigning a set of predefined categories/labels to a groups of pixels or an image.
 
 - [MNIST Hand-Written Digit Recognition](computer-vision/handwritten-image-classification.ipynb)
-
-### Structured Data
-
-Predictive analytics is the branch of the advanced analytics which is used to make predictions about unknown events using tabulated data points.
-
-- [Customer Churn Prediction](structured-data/)
-- [Customer Lifetime Value Prediction](structured-data/)
 
 ### TensorFlow 2 API
 
