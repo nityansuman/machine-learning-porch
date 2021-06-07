@@ -16,11 +16,11 @@ Here you will find some Machine Learning, Deep Learning, Natural Language Proces
 
 Text classification (a.k.a. text categorization or text tagging) is the task of assigning a set of predefined categories to an open-ended text.
 
-- [IMDB Review Classification Using Convolutions](natural-language-understanding/imdb-review-classification-using-convolutions.ipynb)
+- [IMDB Review Classification Using Convolutions](natural-language-undestanding/imdb-review-classification-using-convolutions.ipynb)
 
 An embedding is a mapping of a discrete — categorical — variable to a vector of continuous numbers. In the context of neural networks, embeddings are low-dimensional, learned continuous vector representations of discrete variables.
 
-- [Word Embeddings - Skip Gram Model](natural-language-understanding/skip-gram-word2vec-model.ipynb)
+- [Word Embeddings - Skip Gram Model](natural-language-undestanding/skip-gram-word2vec-model.ipynb)
 
 ### Time Series
 
