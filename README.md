@@ -57,5 +57,6 @@ TensorFlow is a free and open-source software library for machine learning. It c
 - [Writing Custom Layers and Models](tensorflow2-api/writing-new-layers-and-models-via-subclassing.ipynb)
 - [Model Run Customizations](tensorflow2-api/model-run-customizations.ipynb)
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/27618c4c51a3408091f5dc4f8a4fbf06)](https://app.codacy.com/gh/nityansuman/codebase-2021?utm_source=github.com&utm_medium=referral&utm_content=nityansuman/codebase-2021&utm_campaign=Badge_Grade_Settings)
 [![Forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![Forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
