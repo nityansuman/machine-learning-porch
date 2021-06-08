@@ -16,7 +16,7 @@ Here you will find some Machine Learning, Deep Learning, Natural Language Proces
 
 Text classification (a.k.a. text categorization or text tagging) is the task of assigning a set of predefined categories to an open-ended text.
 
-- [IMDB Review Classification Using Convolutions](natural-language-undestanding/imdb-review-classification-using-convolutions.ipynb)
+- [IMDB Review Classification Using Convolutions](natural-language-undestanding/text-classification-using-convolutions.ipynb)
 
 An embedding is a mapping of a discrete — categorical — variable to a vector of continuous numbers. In the context of neural networks, embeddings are low-dimensional, learned continuous vector representations of discrete variables.
 
@@ -39,7 +39,7 @@ Predictive analytics is the branch of the advanced analytics which is used to ma
 
 Image classification (a.k.a. image categorization) is the task of assigning a set of predefined categories/labels to a groups of pixels or an image.
 
-- [Flower Classification with Data Augmentation](computer-vision/flower-classification-with-data-agumentation.ipynb)
+- [Flower Classification with Data Augmentation](computer-vision/image-classification-with-data-agumentation.ipynb)
 
 ### TensorFlow 2 API
 
