@@ -6,7 +6,7 @@ In the twenty-first century, AI techniques have experienced a resurgence followi
 
 **Welcome to my GitHub repository**
 
-Here you will find some Machine Learning, Deep Learning, Natural Language Processing, Computer Vision, Time Series models.
+Here you will find some of my machine Learning based solution notebooks for Natural Language Processing & Understanding, Time Series, Computer Vision and everything in between.
 
 ---
 
