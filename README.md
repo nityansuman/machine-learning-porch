@@ -4,7 +4,7 @@ Artificial intelligence, sometimes called machine intelligence, is intelligence 
 
 In the twenty-first century, AI techniques have experienced a resurgence following concurrent advances in computer power, large amounts of data, and theoretical understanding; and AI techniques have become an essential part of the technology industry, helping to solve many challenging problems in computer science, software engineering and operations research.
 
-**Welcome to my GitHub repository**
+### Welcome to my GitHub repository
 
 Here you will find some of my machine Learning based solution notebooks for Natural Language Processing & Understanding, Time Series, Computer Vision and everything in between.
 
