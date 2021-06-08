@@ -16,7 +16,7 @@ Here you will find some Machine Learning, Deep Learning, Natural Language Proces
 
 Text classification (a.k.a. text categorization or text tagging) is the task of assigning a set of predefined categories to an open-ended text.
 
-- [IMDB Review Classification Using Convolutions](natural-language-undestanding/text-classification-using-convolutions.ipynb)
+- [IMDB Moview Review Classification Using Convolutions](natural-language-undestanding/text-classification-using-convolutions.ipynb)
 
 An embedding is a mapping of a discrete — categorical — variable to a vector of continuous numbers. In the context of neural networks, embeddings are low-dimensional, learned continuous vector representations of discrete variables.
 
@@ -47,9 +47,9 @@ TensorFlow is a free and open-source software library for machine learning. It c
 
 - [Sequential API](tensorflow2-api/sequential-model-api.ipynb)
 - [Functional API](tensorflow2-api/functional-model-api.ipynb)
-- [Train and Evaluate Model with Customization](tensorflow2-api/train-and-evaluate-model.ipynb)
+- [Train and Evaluate Model](tensorflow2-api/train-and-evaluate-model.ipynb)
 - [Writing Custom Layers and Models](tensorflow2-api/writing-new-layers-and-models-via-subclassing.ipynb)
-- [Model run customizations](tensorflow2-api/model-run-customization.ipynb)
+- [Model Run Customizations](tensorflow2-api/model-run-customization.ipynb)
 
 [![Forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![Forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
