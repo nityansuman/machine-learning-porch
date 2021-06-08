@@ -1,5 +1,11 @@
 # Codebase:2021
 
+![GitHub LICENSE](https://img.shields.io/github/license/nityansuman/codebase-2021)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/nityansuman/codebase-2021)
+![GitHub repo size](https://img.shields.io/github/repo-size/nityansuman/codebase-2021)
+![GitHub language count](https://img.shields.io/github/languages/count/nityansuman/codebase-2021)
+![GitHub last commit](https://img.shields.io/github/last-commit/nityansuman/codebase-2021)
+
 Artificial intelligence, sometimes called machine intelligence, is intelligence demonstrated by machines, unlike the natural intelligence displayed by humans and animals.
 
 In the twenty-first century, AI techniques have experienced a resurgence following concurrent advances in computer power, large amounts of data, and theoretical understanding; and AI techniques have become an essential part of the technology industry, helping to solve many challenging problems in computer science, software engineering and operations research.
