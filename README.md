@@ -39,7 +39,7 @@ Predictive analytics is the branch of the advanced analytics which is used to ma
 
 Image classification (a.k.a. image categorization) is the task of assigning a set of predefined categories/labels to a groups of pixels or an image.
 
-- [Flower Classification with Data Augmentation](computer-vision/flower-classification.ipynb)
+- [Flower Classification with Data Augmentation](computer-vision/flower-classification-with-data-augmentation.ipynb)
 
 ### TensorFlow 2 API
 
