@@ -22,17 +22,17 @@ An embedding is a mapping of a discrete — categorical — variable to a vector
 
 - [Word Embeddings - Skip Gram Model](natural-language-undestanding/skip-gram-word2vec-model.ipynb)
 
-### Time Series
+<!-- ### Time Series
 
 A time series is a series of data points indexed (or listed or graphed) in time order.
 
-<!-- - [Sales Forecasting](time-series/) -->
+- [Sales Forecasting](time-series/)
 
 ### Structured Data
 
 Predictive analytics is the branch of the advanced analytics which is used to make predictions about unknown events using tabulated data points.
 
-<!-- - [Customer Churn Prediction](structured-data/)
+- [Customer Churn Prediction](structured-data/)
 - [Customer Lifetime Value Prediction](structured-data/) -->
 
 ### Computer Vision
