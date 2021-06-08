@@ -28,6 +28,7 @@ Text classification (a.k.a. text categorization or text tagging) is the task of 
 An embedding is a mapping of a discrete — categorical — variable to a vector of continuous numbers. In the context of neural networks, embeddings are low-dimensional, learned continuous vector representations of discrete variables.
 
 - [Word Embeddings - Skip Gram Model](natural-language-undestanding/skip-gram-word2vec-model.ipynb)
+- [Training Embeddings from Scratch or Using Pre-trained Embeddings](natural-language-undestanding/training-from-scratch-or-use-pre-trained-embeddings.ipynb)
 
 <!-- ### Time Series
 
