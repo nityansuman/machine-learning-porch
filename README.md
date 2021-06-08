@@ -49,7 +49,7 @@ TensorFlow is a free and open-source software library for machine learning. It c
 - [Functional API](tensorflow2-api/functional-model-api.ipynb)
 - [Train and Evaluate Model](tensorflow2-api/train-and-evaluate-model.ipynb)
 - [Writing Custom Layers and Models](tensorflow2-api/writing-new-layers-and-models-via-subclassing.ipynb)
-- [Model Run Customizations](tensorflow2-api/model-run-customization.ipynb)
+- [Model Run Customizations](tensorflow2-api/model-run-customizations.ipynb)
 
 [![Forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![Forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
