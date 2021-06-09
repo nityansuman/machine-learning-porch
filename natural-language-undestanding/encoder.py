@@ -29,12 +29,7 @@ class GRUEncoder(tf.keras.layers.Layer):
 			self.input_vocab_size,
 			embedding_dim)
 		# GRU layer processes vectors sequentially
-		self.gru_layer1 = tf.keras.layers.GRU(
-			self.enc_units,
-			return_sequences=True,
-			return_state=True,
-			recurrent_initializer="glorot_uniform")
-		self.gru_layer2 = tf.keras.layers.GRU(
+		self.gru_layer = tf.keras.layers.GRU(
 			self.enc_units,
 			return_sequences=True,
 			return_state=True,
@@ -51,6 +46,5 @@ class GRUEncoder(tf.keras.layers.Layer):
 			tensor, tensor: Encoded output tensor, hidden state tensor.
 		"""
 		vectors = self.embedding(tokens)
-		output, state = self.gru_layer1(vectors, initial_state=state)
-		output, state = self.gru_layer2(output, initial_state=state)
+		output, state = self.gru_layer(vectors, initial_state=state)
 		return output, state
