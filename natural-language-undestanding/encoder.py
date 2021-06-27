@@ -1,50 +1,65 @@
 # Import packages
 import tensorflow as tf
+from tensorflow.keras import layers
 
 
 class GRUEncoder(tf.keras.layers.Layer):
-	"""Encoder module
-	1. Takes a list of token IDs
-	2. Looks up an embedding vector for each token
-	3. Processes the embeddings into a new sequence
-	4. Returns:
-	    + The processed sequence. This will be passed to the attention head.
-	    + The internal state. This will be used to initialize the decoder
-	"""
+    """GRU based encoder module.
+    1. Takes a list of token IDs
+    2. Looks up an embedding vector for each token
+    3. Processes the embeddings into a new sequence
+    4. Returns:
+            + The processed sequence.
+            + The internal state.
+    """
 
-	def __init__(self, input_vocab_size, embedding_dim, enc_units=512):
-		"""Class constructor.
+    def __init__(self, input_vocab_size, embedding_dim, units=512, **kwargs):
+        """Constructor.
 
-		Args:
-			input_vocab_size (int): Vocabulary size of input language.
-			embedding_dim (int): Embedding dimension.
-			enc_units (int): Number of nodes for GRU layer.
-		"""
-		super(GRUEncoder, self).__init__()
-		self.input_vocab_size = input_vocab_size
-		self.embedding_dim = embedding_dim
-		self.enc_units = enc_units
-		# Embedding layer converts tokens to vectors
-		self.embedding = tf.keras.layers.Embedding(
-			self.input_vocab_size,
-			embedding_dim)
-		# GRU layer processes vectors sequentially
-		self.gru_layer = tf.keras.layers.GRU(
-			self.enc_units,
-			return_sequences=True,
-			return_state=True,
-			recurrent_initializer="glorot_uniform")
+        Args:
+            input_vocab_size (int): Vocabulary size of the input language.
+            embedding_dim (int): Embedding dimension.
+            units (int): Number of nodes. Defaults to 512.
+        """
+        super(GRUEncoder, self).__init__(name="GRUEncoder", **kwargs)
+        self.input_vocab_size = input_vocab_size
+        self.embedding_dim = embedding_dim
+        self.units = units
 
-	def call(self, tokens, state=None):
-		"""Forward pass over the layer.
+        # Embedding layer converts tokens to vectors
+        self.embedding = layers.Embedding(
+            self.input_vocab_size,
+            embedding_dim)
 
-		Args:
-			tokens (tensor): Tokens IDs.
-			state (tensor, optional): State of the previous layer. Defaults to None.
+        # GRU layer processes vectors sequentially
+        self.gru_layer = layers.GRU(
+            self.units,
+            return_sequences=True,
+            recurrent_initializer="glorot_uniform")
 
-		Returns:
-			tensor, tensor: Encoded output tensor, hidden state tensor.
-		"""
-		vectors = self.embedding(tokens)
-		output, state = self.gru_layer(vectors, initial_state=state)
-		return output, state
+        self.gru_layer_final = layers.GRU(
+            self.units,
+            return_sequences=True,
+            return_state=True,
+            recurrent_initializer="glorot_uniform")
+
+    def call(self, tokens):
+        """Forward pass over the encoder layer.
+
+        Args:
+	        tokens (tensor): Tokens tensor of shape [None, Ts].
+
+        Returns:
+            tensor, tensor: Encoded output tensor, hidden state tensor.
+        """
+        # Lookup embeddings
+        vectors = self.embedding(tokens)
+
+        # Process vectors sequentially with rnn
+        output = self.gru_layer(vectors)
+
+        # Process sequence using another rnn
+        output, state = self.gru_layer_final(output)
+
+        # Return encoded sequence and final state
+        return output, state
