@@ -5,6 +5,10 @@ from tensorflow.keras import layers
 
 class GRUEncoder(tf.keras.layers.Layer):
 	"""GRU based encoder layer.
+
+	Reference:
+		- Ts: Maximum input sequence length.
+		- Te: Number of units in encoder layer.
 	"""
 
 	def __init__(self, input_vocab_size, embedding_dim, units=512, **kwargs):
@@ -44,7 +48,8 @@ class GRUEncoder(tf.keras.layers.Layer):
 			tokens (tensor): Tokens tensor of shape [None, Ts].
 
 		Returns:
-			tensor, tensor: Encoded output tensor, hidden state tensor.
+			tensor, tensor: Encoded output tensor of shape [None, Ts, Te]
+			and final state tensor of shape [None, Te].
 		"""
 		# Lookup embeddings
 		vectors = self.embedding(tokens)
