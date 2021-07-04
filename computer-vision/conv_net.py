@@ -32,7 +32,7 @@ class ConvNet(tf.keras.Model):
 			x (tensor): Input tensor shape of [None, 32, 32, 1].
 
 		Returns:
-			tensor: Tensor of shape [None, `num_classes`].
+			tensor: Output tensor of shape [None, `num_classes`].
 		"""
 		x = self.conv_2d_1(x)
 		x = self.max_pool(x)
