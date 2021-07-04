@@ -15,8 +15,7 @@ class ConvNet(tf.keras.Model):
 
 		Args:
 			num_classes (int): Number of target classes.
-			output_activation (str, optional): Activation for the output layer.
-				Set this according to `num_classes`. Defaults to `softmax`.
+			output_activation (str, optional): Output activation. Defaults to `softmax`.
 		"""
 		super(ConvNet, self).__init__(**kwargs)
 		self.conv_2d_1 = layers.Conv2D(filters=32, kernel_size=3, activation="relu")
@@ -30,7 +29,7 @@ class ConvNet(tf.keras.Model):
 		"""Foreward pass over the model.
 
 		Args:
-			x (tensor): Input tensor shape of [None, 32, 32].
+			x (tensor): Input tensor shape of [None, 32, 32, 1].
 
 		Returns:
 			tensor: Tensor of shape [None, `num_classes`].
