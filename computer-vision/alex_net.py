@@ -4,17 +4,10 @@ from tensorflow.keras import layers
 
 
 class AlexNetBase(tf.keras.layers.Layer):
-	def __init__(self,
-				 filters,
-				 kernal_size,
-				 strides,
-				 padding,
-				 pool_size,
-				 pool_stride,
-				 pool_padding,
-				 activation="relu",
-				 trainable=True,
-				 **kwargs):
+	def __init__(
+		self, filters, kernal_size, strides, padding,
+		pool_size, pool_stride, pool_padding, activation="relu",
+		trainable=True, **kwargs):
 		"""Constructor.
 
 		Args:
