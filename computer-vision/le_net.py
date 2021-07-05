@@ -9,7 +9,7 @@ class LeNetBase(tf.keras.layers.Layer):
 
 		Args:
 			filters (int): Number of filters.
-			kernel_size (Union[int, tuple]): Kernel size for convolutions.
+			kernel_size (Union[int, tuple]): Kernel size for convolution.
 			pool_size (Union[int, tuple]): Pool kernel size.
 			trainable (bool, optional): Boolean flag to make layer trainable.
 				Defaults to True.
