@@ -15,8 +15,14 @@ class LeNetBase(tf.keras.layers.Layer):
 				Defaults to True.
 		"""
 		super().__init__(trainable=trainable, **kwargs)
-		self.conv_2d = layers.Conv2D(filters=filters, kernel_size=kernel_size, activation="relu")
-		self.max_pool = layers.MaxPool2D(pool_size=pool_size, strides=(2, 2), padding="valid")
+		self.conv_2d = layers.Conv2D(
+			filters=filters,
+			kernel_size=kernel_size,
+			activation="relu")
+		self.max_pool = layers.MaxPool2D(
+			pool_size=pool_size,
+			strides=(2, 2),
+			padding="valid")
 
 	def call(self, x):
 		"""Forward pass over the layer.
@@ -46,17 +52,20 @@ class LeNet(tf.keras.Model):
 				Defaults to `softmax`.
 		"""
 		super().__init__(**kwargs)
-		self.layer_1 = LeNetBase(filters=30,
-								 kernel_size=(5, 5),
-								 pool_size=(2, 2))
-		self.layer_2 = LeNetBase(filters=15,
-								 kernel_size=(3, 3),
-								 pool_size=(2, 2))
+		self.layer_1 = LeNetBase(
+			filters=30,
+			kernel_size=(5, 5),
+			pool_size=(2, 2))
+		self.layer_2 = LeNetBase(
+			filters=15,
+			kernel_size=(3, 3),
+			pool_size=(2, 2))
 		self.flatten = layers.Flatten()
 		self.dropout = layers.Dropout(rate=0.5)
 		self.dense_1 = layers.Dense(units=500, activation="relu")
-		self.logit = layers.Dense(units=num_classes,
-								  activation=output_activation)
+		self.logit = layers.Dense(
+			units=num_classes,
+			activation=output_activation)
 
 	def call(self, x):
 		"""Forward pass over the model.
