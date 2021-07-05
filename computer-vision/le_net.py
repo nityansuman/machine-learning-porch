@@ -11,17 +11,18 @@ class LeNetBase(tf.keras.layers.Layer):
 			filters (int): Number of filters.
 			kernel_size (Union[int, tuple]): Kernel size for convolutions.
 			pool_size (Union[int, tuple]): Pool kernel size.
-			trainable (bool, optional): Boolean flag to set layer trainable. Defaults to True.
+			trainable (bool, optional): Boolean flag to make layer trainable.
+				Defaults to True.
 		"""
 		super().__init__(trainable=trainable, **kwargs)
 		self.conv_2d = layers.Conv2D(filters=filters, kernel_size=kernel_size, activation="relu")
-		self.max_pool = layers.MaxPool2D(pool_size=pool_size)
+		self.max_pool = layers.MaxPool2D(pool_size=pool_size, strides=(2, 2), padding="valid")
 
 	def call(self, x):
 		"""Forward pass over the layer.
 
 		Args:
-			x (tensor): Input tensor of shape [None, 28, 28, 1].
+			x (tensor): Input tensor.
 
 		Returns:
 			tensor: Output tensor.
