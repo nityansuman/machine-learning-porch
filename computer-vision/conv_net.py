@@ -5,9 +5,6 @@ from tensorflow.keras import layers
 
 class ConvNet(tf.keras.Model):
 	"""ConvNet image classifier implementation.
-
-	Args:
-		tf.keras.Model (cls): Parent model class.
 	"""
 
 	def __init__(self, num_classes, output_activation="softmax", **kwargs):
@@ -17,7 +14,7 @@ class ConvNet(tf.keras.Model):
 			num_classes (int): Number of target classes.
 			output_activation (str, optional): Output activation. Defaults to `softmax`.
 		"""
-		super(ConvNet, self).__init__(**kwargs)
+		super().__init__(**kwargs)
 		self.conv_2d_1 = layers.Conv2D(filters=32, kernel_size=3, activation="relu")
 		self.conv_2d_2 = layers.Conv2D(filters=64, kernel_size=3, activation="relu")
 		self.max_pool = layers.MaxPool2D()
