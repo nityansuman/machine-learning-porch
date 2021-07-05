@@ -51,14 +51,9 @@ class AlexNetBase(tf.keras.layers.Layer):
 
 
 class DenseBlock(tf.keras.layers.Layer):
-	def __init__(self,
-				 units,
-				 num_classes,
-				 output_activation,
-				 activation="relu",
-				 dp_rate=0.4,
-				 trainable=True,
-				 **kwargs):
+	def __init__(
+		self, units, num_classes, output_activation, activation="relu",
+		dp_rate=0.4, trainable=True, **kwargs):
 		"""Constructor.
 
 		Args:
