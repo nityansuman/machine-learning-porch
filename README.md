@@ -19,7 +19,7 @@ Here you will find some of my machine Learning based solution notebooks for Natu
 
 ## Codebase
 
-### Natural Language Understanding
+### Natural Language
 
 Text classification (a.k.a. text categorization or text tagging) is the task of assigning a set of predefined categories to an open-ended text.
 
