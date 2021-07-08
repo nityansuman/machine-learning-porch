@@ -4,7 +4,7 @@ from tensorflow.keras import layers
 
 
 class ConvNet(tf.keras.Model):
-	"""ConvNet model architecture implementation.
+	"""Example CNN model architecture implementation.
 	"""
 
 	def __init__(self, num_classes, output_activation="softmax", **kwargs):
