@@ -1,11 +1,11 @@
-# Codebase:2021
+# AI Codebase
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/27618c4c51a3408091f5dc4f8a4fbf06)](https://app.codacy.com/gh/nityansuman/codebase-2021?utm_source=github.com&utm_medium=referral&utm_content=nityansuman/codebase-2021&utm_campaign=Badge_Grade_Settings)
-![GitHub LICENSE](https://img.shields.io/github/license/nityansuman/codebase-2021)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/nityansuman/codebase-2021)
-![GitHub repo size](https://img.shields.io/github/repo-size/nityansuman/codebase-2021)
-![GitHub language count](https://img.shields.io/github/languages/count/nityansuman/codebase-2021)
-![GitHub last commit](https://img.shields.io/github/last-commit/nityansuman/codebase-2021)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/27618c4c51a3408091f5dc4f8a4fbf06)](https://app.codacy.com/gh/nityansuman/ai-codebase?utm_source=github.com&utm_medium=referral&utm_content=nityansuman/ai-codebase&utm_campaign=Badge_Grade_Settings)
+![GitHub LICENSE](https://img.shields.io/github/license/nityansuman/ai-codebase)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/nityansuman/ai-codebase)
+![GitHub repo size](https://img.shields.io/github/repo-size/nityansuman/ai-codebase)
+![GitHub language count](https://img.shields.io/github/languages/count/nityansuman/ai-codebase)
+![GitHub last commit](https://img.shields.io/github/last-commit/nityansuman/ai-codebase)
 
 Artificial intelligence, sometimes called machine intelligence, is intelligence demonstrated by machines, unlike the natural intelligence displayed by humans and animals.
 
