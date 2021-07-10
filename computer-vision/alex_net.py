@@ -5,14 +5,14 @@ from tensorflow.keras import layers
 
 class AlexNetBase(tf.keras.layers.Layer):
 	def __init__(
-		self, filters, kernal_size, strides, padding,
+		self, filters, kernel_size, strides, padding,
 		pool_size, pool_stride, pool_padding, activation="relu",
 		trainable=True, **kwargs):
 		"""Constructor.
 
 		Args:
 			filters (int): Number of filters
-			kernal_size (Union[int, tuple]): Kernel size for convolution.
+			kernel_size (Union[int, tuple]): Kernel size for convolution.
 			strides (Union[int, tuple]): Kernel stride size.
 			padding (str): Padding strategy.
 			pool_size (Union[int, tuple]): Pool kernel size.
@@ -25,7 +25,7 @@ class AlexNetBase(tf.keras.layers.Layer):
 		super().__init__(trainable=trainable, **kwargs)
 		self.conv_2d = layers.Conv2D(
 			filters=filters,
-			kernel_size=kernal_size,
+			kernel_size=kernel_size,
 			strides=strides,
 			padding=padding,
 			activation=activation)
