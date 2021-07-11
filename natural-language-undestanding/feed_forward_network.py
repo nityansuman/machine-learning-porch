@@ -3,7 +3,7 @@ import tensorflow as tf
 
 
 class FeedForwardNetworkLayer(tf.keras.layers.Layer):
-	"""Feed forward network layer implementation from transformers.
+	"""Feed forward network layer implementation from transformer architecture.
 
 	Args:
 		units (int, optional): Number of output units. Defaults to 2048.
