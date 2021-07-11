@@ -20,7 +20,7 @@ class FeedForwardNetworkLayer(tf.keras.layers.Layer):
 		`batch_size, units`.
 	"""
 
-	def __init__(self, units=2048, activation="relu", initializer="glorot_unifrom",
+	def __init__(self, units=2048, activation="relu", initializer="glorot_uniform",
 		bias_initializer="zeros", **kwargs):
 		super().__init__(**kwargs)
 		self.units = units
@@ -58,3 +58,19 @@ class FeedForwardNetworkLayer(tf.keras.layers.Layer):
 		x = tf.matmul(inputs, self.w1) + self.b1
 		x = self.activation(x)
 		return tf.matmul(x, self.w2) + self.b2
+
+
+# Test the above layer
+if __name__ == "__main__":
+	# Instantiate the layer
+	layer_1 = FeedForwardNetworkLayer(units=512)
+
+	# Build the layer and create weights
+	y = layer_1(tf.ones(shape=(16, 128)))
+
+	# All weights should be four
+	assert len(layer_1.weights) == 4
+
+	# All weights in the layer are trainable
+	# Therefor trainable weights should be four as well
+	assert len(layer_1.trainable_weights) == 4
