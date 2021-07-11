@@ -64,7 +64,9 @@ if __name__ == "__main__":
 	y, states = layer_1(tf.ones(shape=(batch_size, input_size)))
 
 	# Output shape should be (batch_size, input_size, units)
-	assert y.shape == (batch_size, input_size, units)
+	if y.shape != (batch_size, input_size, units):
+		raise AssertionError("Incorrect output shape.")
 
 	# Output shape for the hidden state should be (batch_size, units)
-	assert states.shape == (batch_size, units)
+	if states.shape != (batch_size, units):
+		raise AssertionError("Incorrect hidden state shape.")

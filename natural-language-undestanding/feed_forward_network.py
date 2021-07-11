@@ -74,11 +74,14 @@ if __name__ == "__main__":
 	y = layer_1(tf.ones(shape=(batch_size, input_size)))
 
 	# Output shape should be (16, 512)
-	assert y.shape == (batch_size, units)
+	if y.shape != (batch_size, units):
+		raise AssertionError("Incorrect output shape.")
 
 	# All weights should be four
-	assert len(layer_1.weights) == 4
+	if len(layer_1.weights) != 4:
+		raise AssertionError("Incorrect number of wights found.")
 
 	# All weights in the layer are trainable
 	# Therefor trainable weights should be four as well
-	assert len(layer_1.trainable_weights) == 4
+	if len(layer_1.trainable_weights) != 4:
+		raise AssertionError("Incorrect number of trainable weights.")
