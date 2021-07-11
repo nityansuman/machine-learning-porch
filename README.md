@@ -33,6 +33,7 @@ An embedding is a mapping of a discrete — categorical — variable to a vector
 Custom layer implementations:
 
 - [Feed forward network layer implementation from transformer architecture](natural-language-undestanding/feed_forward_network.py)
+- [GRU Encoder implementation](natural-language-undestanding/encoder.py)
 
 <!-- ### Time Series
 
@@ -54,6 +55,12 @@ Image classification (a.k.a. image categorization) is the task of assigning a se
 - [Multi-class Flower Classification with Data Augmentation](computer-vision/image-classification-with-data-agumentation.ipynb)
 
 ![Flower-classifier-modelling](computer-vision/images/flower-classifier-modelling.png)
+
+Model Architecture Implementations:
+
+- [Simple convolution model architecture implementation](computer-vision/conv_net.py)
+- [AlexNet model architecture implementation](computer-vision/alex_net.py)
+- [LeNet model architecture implementation](computer-vision/le_net.py)
 
 ### TensorFlow 2 API
 
