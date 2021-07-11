@@ -4,61 +4,67 @@ from tensorflow.keras import layers
 
 
 class GRUEncoder(tf.keras.layers.Layer):
-	"""GRU based encoder layer.
+	"""GRU encoder layer implementation.
 
-	Reference:
-		- Ts: Maximum input sequence length.
-		- Te: Number of units in encoder layer.
+	Args:
+		input_vocab_size (int): Vocabulary size of the input language.
+		embedding_dim (int): Embedding dimension.
+		units (int, optinal): Number of nodes. Defaults to 512.
+
+	Input shape:
+		2D input tensor of shape `batch_size, input_size`.
+
+	Output shape:
+		3D output tensor of shape `batch_size, input_size, units` and
+		a 2D hidden state tensor of shape `batch_size, units`.
 	"""
 
 	def __init__(self, input_vocab_size, embedding_dim, units=512, **kwargs):
-		"""Constructor.
-
-		Args:
-			input_vocab_size (int): Vocabulary size of the input language.
-			embedding_dim (int): Embedding dimension.
-			units (int): Number of nodes. Defaults to 512.
-		"""
 		super(GRUEncoder, self).__init__(name="GRUEncoder", **kwargs)
-		self.input_vocab_size = input_vocab_size
-		self.embedding_dim = embedding_dim
-		self.units = units
-
-		# Embedding layer converts tokens to vectors
 		self.embedding = layers.Embedding(
-			self.input_vocab_size,
-			embedding_dim)
-
-		# GRU layer processes vectors sequentially
-		self.gru_layer = layers.GRU(
-			self.units,
+			input_vocab_size,
+			embedding_dim
+		)
+		self.gru_layer_1 = layers.GRU(
+			units,
 			return_sequences=True,
-			recurrent_initializer="glorot_uniform")
-
-		self.gru_layer_final = layers.GRU(
-			self.units,
+			recurrent_initializer="glorot_uniform"
+		)
+		self.gru_layer_2 = layers.GRU(
+			units,
 			return_sequences=True,
 			return_state=True,
-			recurrent_initializer="glorot_uniform")
+			recurrent_initializer="glorot_uniform"
+		)
 
 	def call(self, tokens):
-		"""Forward pass over the encoder layer.
-
-		Args:
-			tokens (tensor): Tokens tensor of shape [None, Ts].
-
-		Returns:
-			tensor, tensor: Encoded output tensor of shape [None, Ts, Te]
-			and final state tensor of shape [None, Te].
-		"""
-		# Lookup embeddings
 		vectors = self.embedding(tokens)
-
-		# Process vectors sequentially with rnn
-		output = self.gru_layer(vectors)
-
-		# Process sequence using another rnn
-		output, state = self.gru_layer_final(output)
-
-		# Return encoded sequence and final state
+		output = self.gru_layer_1(vectors)
+		output, state = self.gru_layer_2(output)
 		return output, state
+
+
+# Test
+if __name__ == "__main__":
+	# Set environment
+	batch_size = 16
+	input_size = 128
+	embedding_dim = 100
+	input_vocab_size = 1000
+	units = 512
+
+	# Instantiate the layer
+	layer_1 = GRUEncoder(
+		input_vocab_size=input_vocab_size,
+		embedding_dim=embedding_dim,
+		units=units
+	)
+
+	# Build the layer and create weights
+	y, states = layer_1(tf.ones(shape=(batch_size, input_size)))
+
+	# Output shape should be (batch_size, input_size, units)
+	assert y.shape == (batch_size, input_size, units)
+
+	# Output shape for the hidden state should be (batch_size, units)
+	assert states.shape == (batch_size, units)
