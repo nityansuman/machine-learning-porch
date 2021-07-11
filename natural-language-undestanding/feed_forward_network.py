@@ -1,5 +1,6 @@
 # Import packages
 import tensorflow as tf
+from tensorflow.python.keras import activations
 
 
 class FeedForwardNetworkLayer(tf.keras.layers.Layer):
@@ -8,7 +9,6 @@ class FeedForwardNetworkLayer(tf.keras.layers.Layer):
 	Args:
 		units (int, optional): Number of output units. Defaults to 2048.
 		activation (str, optional): Activation function to use. Defaults to "relu".
-		initializer (str, optional): Weight initializer to use. Defaults to "he_uniform".
 
 	Input shape:
 		N-D tensor of shape `batch_size, ..., input_dim`. An example of a 2D input of shape
@@ -19,11 +19,12 @@ class FeedForwardNetworkLayer(tf.keras.layers.Layer):
 		`batch_size, units`.
 	"""
 
-	def __init__(self, units=2048, activation="relu", initializer="he_uniform", **kwargs):
+	def __init__(self, units=2048, activation="relu", **kwargs):
 		super().__init__(trainable=True, **kwargs)
 		self.units = units
-		self.initializer = initializer
 		self.activation = tf.keras.layers.Activation(activation=activation)
+		self.initializer =tf.keras.initializers.GlorotUniform()
+		self.b_init = tf.keras.initializers.RandomNormal()
 
 	def build(self, input_shape):
 		self.w1 = self.add_weight(
@@ -35,7 +36,7 @@ class FeedForwardNetworkLayer(tf.keras.layers.Layer):
 		self.b1 = self.add_weight(
 			name="b1",
 			shape=(self.units,),
-			initializer=tf.keras.initializers.RandomNormal(),
+			initializer=self.b_init,
 			trainable=True
 		)
 		self.w2 = self.add_weight(
@@ -47,7 +48,7 @@ class FeedForwardNetworkLayer(tf.keras.layers.Layer):
 		self.b2 = self.add_weight(
 			name="b2",
 			shape=(self.units,),
-			initializer=tf.keras.initializers.RandomNormal(),
+			initializer=self.b_init,
 			trainable=True
 		)
 
