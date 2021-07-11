@@ -43,7 +43,7 @@ class FeedForwardNetworkLayer(tf.keras.layers.Layer):
 		)
 		self.w2 = self.add_weight(
 			name="w2",
-			shape=[self.units, self.units],
+			shape=(self.units, self.units),
 			initializer=self.initializer,
 			trainable=True
 		)
