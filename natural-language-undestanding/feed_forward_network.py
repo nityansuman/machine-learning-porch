@@ -1,6 +1,5 @@
 # Import packages
 import tensorflow as tf
-from tensorflow.python.keras import activations
 
 
 class FeedForwardNetworkLayer(tf.keras.layers.Layer):
@@ -9,8 +8,10 @@ class FeedForwardNetworkLayer(tf.keras.layers.Layer):
 	Args:
 		units (int, optional): Number of output units. Defaults to 2048.
 		activation (str, optional): Activation function to use. Defaults to "relu".
+		initializer (str, optional): Weight initializer to use. Defaults to "glorot_uniform".
+		bias_initializer (str, optional): Bias initialier to use. Defaults to "zeros".
 
-	Input shape:
+	Input Shape:
 		N-D tensor of shape `batch_size, ..., input_dim`. An example of a 2D input of shape
 		`batch_size, input_dim`.
 
@@ -19,12 +20,13 @@ class FeedForwardNetworkLayer(tf.keras.layers.Layer):
 		`batch_size, units`.
 	"""
 
-	def __init__(self, units=2048, activation="relu", **kwargs):
+	def __init__(self, units=2048, activation="relu", initializer="glorot_unifrom",
+		bias_initializer="zeros", **kwargs):
 		super().__init__(trainable=True, **kwargs)
 		self.units = units
-		self.activation = tf.keras.layers.Activation(activation=activation)
-		self.initializer =tf.keras.initializers.GlorotUniform()
-		self.b_init = tf.keras.initializers.RandomNormal()
+		self.activation = tf.keras.activations.get(activation)
+		self.initializer = tf.keras.initializers.get(initializer)
+		self.b_init = tf.keras.initializers.get(bias_initializer)
 
 	def build(self, input_shape):
 		self.w1 = self.add_weight(
