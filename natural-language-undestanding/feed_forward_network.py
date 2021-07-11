@@ -60,13 +60,21 @@ class FeedForwardNetworkLayer(tf.keras.layers.Layer):
 		return tf.matmul(x, self.w2) + self.b2
 
 
-# Test the above layer
+# Test
 if __name__ == "__main__":
+	# Set environment
+	batch_size = 16
+	input_size = 128
+	units = 512
+
 	# Instantiate the layer
-	layer_1 = FeedForwardNetworkLayer(units=512)
+	layer_1 = FeedForwardNetworkLayer(units=units)
 
 	# Build the layer and create weights
-	y = layer_1(tf.ones(shape=(16, 128)))
+	y = layer_1(tf.ones(shape=(batch_size, input_size)))
+
+	# Output shape should be (16, 512)
+	assert y.shape == (batch_size, units)
 
 	# All weights should be four
 	assert len(layer_1.weights) == 4
