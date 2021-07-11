@@ -22,7 +22,7 @@ class FeedForwardNetworkLayer(tf.keras.layers.Layer):
 
 	def __init__(self, units=2048, activation="relu", initializer="glorot_unifrom",
 		bias_initializer="zeros", **kwargs):
-		super().__init__(trainable=True, **kwargs)
+		super().__init__(**kwargs)
 		self.units = units
 		self.activation = tf.keras.activations.get(activation)
 		self.initializer = tf.keras.initializers.get(initializer)
