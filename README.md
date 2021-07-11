@@ -23,17 +23,17 @@ Here you will find some of my machine Learning based solution notebooks for Natu
 
 Text classification (a.k.a. text categorization or text tagging) is the task of assigning a set of predefined categories to an open-ended text.
 
-- [IMDb moview review classification using convolutions](natural-language-undestanding/text-classification-cnn.ipynb)
+- [IMDb moview review classification using convolutions](natural-language/text-classification-cnn.ipynb)
 
 An embedding is a mapping of a discrete — categorical — variable to a vector of continuous numbers. In the context of neural networks, embeddings are low-dimensional, learned continuous vector representations of discrete variables.
 
-- [Word embeddings - skip gram model](natural-language-undestanding/skip-gram.ipynb)
-- [Training from scratch or using pre-trained embeddings](natural-language-undestanding/embeddings.ipynb)
+- [Word embeddings - skip gram model](natural-language/skip-gram.ipynb)
+- [Training from scratch or using pre-trained embeddings](natural-language/embeddings.ipynb)
 
 Custom layer implementations:
 
-- [Feed forward network layer implementation from transformer architecture](natural-language-undestanding/feed_forward_network.py)
-- [GRU Encoder implementation](natural-language-undestanding/encoder.py)
+- [Feed forward network layer implementation from transformer architecture](natural-language/feed_forward_network.py)
+- [GRU Encoder implementation](natural-language/encoder.py)
 
 <!-- ### Time Series
 
