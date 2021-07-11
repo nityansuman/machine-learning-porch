@@ -33,7 +33,7 @@ An embedding is a mapping of a discrete — categorical — variable to a vector
 Custom layer implementations:
 
 - [Feed forward network layer implementation from transformer architecture](natural-language/feed_forward_network.py)
-- [GRU Encoder implementation](natural-language/encoder.py)
+- [GRU encoder implementation](natural-language/encoder.py)
 
 <!-- ### Time Series
 
