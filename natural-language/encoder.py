@@ -8,8 +8,8 @@ class GRUEncoder(tf.keras.layers.Layer):
 
 	Args:
 		input_vocab_size (int): Vocabulary size of the input language.
-		embedding_dim (int): Embedding dimension.
 		units (int, optinal): Number of nodes. Defaults to 512.
+		embedding_dim (int, optional): Embedding dimension. Defaults to 100.
 
 	Input shape:
 		2D input tensor of shape `batch_size, input_size`.
@@ -19,8 +19,8 @@ class GRUEncoder(tf.keras.layers.Layer):
 		a 2D hidden state tensor of shape `batch_size, units`.
 	"""
 
-	def __init__(self, input_vocab_size, embedding_dim, units=512, **kwargs):
-		super(GRUEncoder, self).__init__(name="GRUEncoder", **kwargs)
+	def __init__(self, input_vocab_size, units=512, embedding_dim=100, **kwargs):
+		super().__init__(**kwargs)
 		self.embedding = layers.Embedding(
 			input_vocab_size,
 			embedding_dim
