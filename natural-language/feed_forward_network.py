@@ -12,11 +12,11 @@ class FeedForwardNetworkLayer(tf.keras.layers.Layer):
 		bias_initializer (str, optional): Bias initialier to use. Defaults to "zeros".
 
 	Input Shape:
-		N-D tensor of shape `batch_size, ..., input_dim`. An example of a 2D input of shape
+		N-D tensor of shape `batch_size, ..., input_dim`. A 2D input would have shape of
 		`batch_size, input_dim`.
 
 	Output Shape:
-		N-D tensor of shape `batch_size, ..., units`. An example of a 2D output of shape
+		N-D tensor of shape `batch_size, ..., units`. A 2D output would have shape of
 		`batch_size, units`.
 	"""
 
@@ -73,7 +73,7 @@ if __name__ == "__main__":
 	# Build the layer and create weights
 	y = layer_1(tf.ones(shape=(batch_size, input_size)))
 
-	# Output shape should be (16, 512)
+	# Output shape should be (batch_size, units)
 	if y.shape != (batch_size, units):
 		raise AssertionError("Incorrect output shape.")
 
