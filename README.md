@@ -23,12 +23,12 @@ Here you will find some of my machine Learning based solution notebooks for Natu
 
 Text classification (a.k.a. text categorization or text tagging) is the task of assigning a set of predefined categories to an open-ended text.
 
-- [IMDb moview review classification using convolutions](natural-language/text-classification-cnn.ipynb)
+- [IMDb moview review classification using convolutions](natural-language/notebooks/text-classification-cnn.ipynb)
 
 An embedding is a mapping of a discrete — categorical — variable to a vector of continuous numbers. In the context of neural networks, embeddings are low-dimensional, learned continuous vector representations of discrete variables.
 
-- [Word embeddings - skip gram model](natural-language/skip-gram.ipynb)
-- [Training from scratch or using pre-trained embeddings](natural-language/embeddings.ipynb)
+- [Word embeddings - skip gram model](natural-language/notebooks/skip-gram.ipynb)
+- [Training from scratch or using pre-trained embeddings](natural-language/notebooks/embeddings.ipynb)
 
 Custom layer implementations:
 
@@ -52,7 +52,7 @@ Predictive analytics is the branch of the advanced analytics which is used to ma
 
 Image classification (a.k.a. image categorization) is the task of assigning a set of predefined categories/labels to a groups of pixels or an image.
 
-- [Multi-class Flower Classification with Data Augmentation](computer-vision/image-classification-with-data-agumentation.ipynb)
+- [Multi-class Flower Classification with Data Augmentation](computer-vision/notebooks/image-classification-with-data-agumentation.ipynb)
 
 ![Flower-classifier-modelling](computer-vision/images/flower-classifier-modelling.png)
 
