@@ -21,19 +21,20 @@ Here you will find some of my machine Learning based solution notebooks for Natu
 
 ### Natural Language
 
-Text classification (a.k.a. text categorization or text tagging) is the task of assigning a set of predefined categories to an open-ended text.
+Text classification (a.k.a. text categorization or text tagging) is the task of assigning a set of predefined categories to an open-ended text. An embedding is a mapping of a discrete — categorical — variable to a vector of continuous numbers.
 
-- [IMDb moview review classification using convolutions](natural-language/notebooks/text-classification-cnn.ipynb)
-
-An embedding is a mapping of a discrete — categorical — variable to a vector of continuous numbers. In the context of neural networks, embeddings are low-dimensional, learned continuous vector representations of discrete variables.
+In the context of neural networks, embeddings are low-dimensional, learned continuous vector representations of discrete variables.
 
 - [Word embeddings - skip gram model](natural-language/notebooks/skip-gram.ipynb)
 - [Training from scratch or using pre-trained embeddings](natural-language/notebooks/embeddings.ipynb)
+- [IMDb moview review classification using convolutions](natural-language/notebooks/text-classification-cnn.ipynb)
 
-Custom layer implementations:
+Model/Layer Implementations:
 
-- [Feed forward network layer implementation from transformer architecture](natural-language/feed_forward_network.py)
+- [Bi-LSTM classifier](natural-language/lstm_classifier.py)
+- [Convolutional text classifier](natural-language/conv_classifier.py)
 - [GRU encoder implementation](natural-language/encoder.py)
+- [Feed forward network layer implementation from transformer architecture](natural-language/feed_forward_network.py)
 
 <!-- ### Time Series
 
@@ -56,11 +57,11 @@ Image classification (a.k.a. image categorization) is the task of assigning a se
 
 ![Flower-classification](computer-vision/images/flower-classification.png)
 
-Model Architecture Implementations:
+Model Implementations:
 
-- [Simple convolution model architecture implementation](computer-vision/conv_net.py)
-- [AlexNet model architecture implementation](computer-vision/alex_net.py)
 - [LeNet model architecture implementation](computer-vision/le_net.py)
+- [AlexNet model architecture implementation](computer-vision/alex_net.py)
+- [Simple convolution model architecture implementation](computer-vision/conv_net.py)
 
 ### TensorFlow 2 API
 
@@ -69,8 +70,8 @@ TensorFlow is a free and open-source software library for machine learning. It c
 - [Sequential API](tensorflow2-api/sequential-model-api.ipynb)
 - [Functional API](tensorflow2-api/functional-model-api.ipynb)
 - [Train and Evaluate Model](tensorflow2-api/train-and-evaluate-model.ipynb)
-- [Writing Custom Layers and Models](tensorflow2-api/writing-new-layers-and-models-via-subclassing.ipynb)
 - [Model Run Customizations](tensorflow2-api/model-run-customizations.ipynb)
+- [Writing Custom Layers and Models](tensorflow2-api/writing-new-layers-and-models-via-subclassing.ipynb)
 
 [![Forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![Forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
