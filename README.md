@@ -54,7 +54,7 @@ Image classification (a.k.a. image categorization) is the task of assigning a se
 
 - [Multi-class Flower Classification with Data Augmentation](computer-vision/notebooks/image-classification-with-data-agumentation.ipynb)
 
-![Flower-classifier-modelling](computer-vision/images/flower-classification.png)
+![Flower-classification](computer-vision/images/flower-classification.png)
 
 Model Architecture Implementations:
 
