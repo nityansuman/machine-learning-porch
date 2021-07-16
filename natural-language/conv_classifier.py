@@ -3,7 +3,7 @@ import tensorflow as tf
 from tensorflow.keras import layers
 
 
-class TextConvNet(tf.keras.Model):
+class ConvClassifier(tf.keras.Model):
 	"""Example text classification using 1D convolution architecture implementation.
 
 	Args:
@@ -58,5 +58,5 @@ if __name__ == "__main__":
 	embedding_dim = 100
 
 	# Instantiate the model
-	model = TextConvNet(vocab_size=vocab_size, embedding_dim=embedding_dim)
+	model = ConvClassifier(vocab_size=vocab_size, embedding_dim=embedding_dim)
 	print(model)
