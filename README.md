@@ -29,7 +29,7 @@ In the context of neural networks, embeddings are low-dimensional, learned conti
 - [Training from scratch or using pre-trained embeddings](natural-language/notebooks/embeddings.ipynb)
 - [IMDb moview review classification using convolutions](natural-language/notebooks/text-classification-cnn.ipynb)
 
-Model/Layer Implementations:
+`Model Architecture` and `Layer` implementations:
 
 - [Bi-LSTM classifier](natural-language/lstm_classifier.py)
 - [Convolutional text classifier](natural-language/conv_classifier.py)
@@ -53,11 +53,12 @@ Predictive analytics is the branch of the advanced analytics which is used to ma
 
 Image classification (a.k.a. image categorization) is the task of assigning a set of predefined categories/labels to a groups of pixels or an image.
 
-- [Multi-class Flower Classification with Data Augmentation](computer-vision/notebooks/image-classification-with-data-agumentation.ipynb)
+- [Multi-class Flower Classification with Data Augmentation](computer-vision/image-classification-with-data-agumentation.ipynb)
 
-![Flower-classification](computer-vision/images/flower-classification.png)
+![model-acc](computer-vision/images/flower-classification-acc.png)
+![model-loss](computer-vision/images/flower-classification-loss.png)
 
-Model Implementations:
+`Model Architecture` implementations:
 
 - [LeNet model architecture implementation](computer-vision/le_net.py)
 - [AlexNet model architecture implementation](computer-vision/alex_net.py)
