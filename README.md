@@ -29,7 +29,7 @@ In the context of neural networks, embeddings are low-dimensional, learned conti
 - [Training from scratch or using pre-trained embeddings](natural-language/notebooks/embeddings.ipynb)
 - [IMDb moview review classification using convolutions](natural-language/notebooks/text-classification-cnn.ipynb)
 
-`Model Architecture`:
+`Model Architecture` implementations:
 
 - [Simple bi-lstm classifier implementation](natural-language/lstm_classifier.py)
 - [Convolutional text classifier implementation](natural-language/conv_classifier.py)
