@@ -21,13 +21,18 @@ Here you will find some of my machine Learning based solution notebooks for Natu
 
 ### Natural Language
 
-Text classification (a.k.a. text categorization or text tagging) is the task of assigning a set of predefined categories to an open-ended text. An embedding is a mapping of a discrete — categorical — variable to a vector of continuous numbers.
-
-In the context of neural networks, embeddings are low-dimensional, learned continuous vector representations of discrete variables.
+In the context, embeddings are low-dimensional, learned continuous vector representations of discrete variables.
+Word embedding is a term used for the representation of words for text analysis, typically in the form of a real-valued vector that encodes the meaning of the word such that the words that are closer in the vector space are expected to be similar in meaning
 
 - [Word embeddings - skip gram model](natural-language/notebooks/skip-gram.ipynb)
 - [Training from scratch or using pre-trained embeddings](natural-language/notebooks/embeddings.ipynb)
+
+Text classification (a.k.a. text categorization or text tagging) is the task of assigning a set of predefined categories to an open-ended text. An embedding is a mapping of a discrete — categorical — variable to a vector of continuous numbers.
+
 - [IMDb moview review classification using convolutions](natural-language/notebooks/text-classification-cnn.ipynb)
+
+![model-acc](natural-language/images/review-classification-acc.png)
+![model-loss](natural-language/images/review-classification-loss.png)
 
 `Model Architecture` implementations:
 
