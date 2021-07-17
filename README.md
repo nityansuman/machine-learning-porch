@@ -29,10 +29,13 @@ In the context of neural networks, embeddings are low-dimensional, learned conti
 - [Training from scratch or using pre-trained embeddings](natural-language/notebooks/embeddings.ipynb)
 - [IMDb moview review classification using convolutions](natural-language/notebooks/text-classification-cnn.ipynb)
 
-`Model Architecture` and `Layer` implementations:
+`Model Architecture`:
 
-- [Bi-LSTM classifier](natural-language/lstm_classifier.py)
-- [Convolutional text classifier](natural-language/conv_classifier.py)
+- [Simple bi-lstm classifier implementation](natural-language/lstm_classifier.py)
+- [Convolutional text classifier implementation](natural-language/conv_classifier.py)
+
+Custom `Layer` implementations:
+
 - [GRU encoder implementation](natural-language/encoder.py)
 - [Feed forward network layer implementation from transformer architecture](natural-language/feed_forward_network.py)
 
@@ -60,9 +63,9 @@ Image classification (a.k.a. image categorization) is the task of assigning a se
 
 `Model Architecture` implementations:
 
+- [Simple convolutional classifier implementation](computer-vision/conv_net.py)
 - [LeNet model architecture implementation](computer-vision/le_net.py)
 - [AlexNet model architecture implementation](computer-vision/alex_net.py)
-- [Simple convolution model architecture implementation](computer-vision/conv_net.py)
 
 ### TensorFlow 2 API
 
