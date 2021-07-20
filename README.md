@@ -25,7 +25,7 @@ In the context, embeddings are low-dimensional, learned continuous vector repres
 An embedding is a mapping of a discrete — categorical — variable to a vector of continuous numbers.
 Word embedding is a term used for the representation of words for text analysis, typically in the form of a real-valued vector that encodes the meaning of the word such that the words that are closer in the vector space are expected to be similar in meaning
 
-- [Word embeddings - skip gram model](natural-language/skip-gram.ipynb)
+- [Word2Vec embeddings - skip gram](natural-language/skip-gram-word2vec.ipynb)
 - [Training embeddings from scratch or using pre-trained embeddings](natural-language/embeddings-playground.ipynb)
 
 Text classification (a.k.a. text categorization or text tagging) is the task of assigning a set of predefined categories to an open-ended text.
