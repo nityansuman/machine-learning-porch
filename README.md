@@ -19,26 +19,32 @@ Here you will find some of my machine Learning based solution notebooks for Natu
 
 ## Codebase
 
+### Analytics
+
+Churn quantifies the number of customers who have left the brand by cancelling their subscription or stop paying for services. This is bad news for any business as it costs five times as much to attract a new customer as it does to keep an existing one. A high customer churn rate will hit any company’s finances hard. By leveraging advanced artificial intelligence techniques like machine learning (ML), one can anticipate potential churners.
+
+- [Churn Prediction Through Usage Analysis](analytics/churn-prediction-through-usage-analysis.ipynb)
+
 ### Natural Language
 
 In the context, embeddings are low-dimensional, learned continuous vector representations of discrete variables.
 An embedding is a mapping of a discrete — categorical — variable to a vector of continuous numbers.
 Word embedding is a term used for the representation of words for text analysis, typically in the form of a real-valued vector that encodes the meaning of the word such that the words that are closer in the vector space are expected to be similar in meaning
 
-- [Word2Vec embeddings - skip gram](natural-language/skip-gram-word2vec.ipynb)
-- [Training embeddings from scratch or using pre-trained embeddings](natural-language/embeddings-playground.ipynb)
+- [Word2Vec Embeddings - Skip Gram Model Using Negative Sampling](natural-language/skip-gram-word2vec.ipynb)
+- [Training Embeddings From Scratch Or Use Pre-trained Embeddings](natural-language/embeddings-playground.ipynb)
 
 Text classification (a.k.a. text categorization or text tagging) is the task of assigning a set of predefined categories to an open-ended text.
 
-- [IMDb moview review classification](natural-language/classification-playground.ipynb)
+- [IMDb Moview Review Classification](natural-language/classification-playground.ipynb)
 
 ![model-acc](natural-language/images/review-classification-acc.png)
 ![model-loss](natural-language/images/review-classification-loss.png)
 
 Custom `Layer` implementations:
 
-- [GRU encoder implementation](natural-language/encoder.py)
-- [Feed forward network layer implementation from transformer architecture](natural-language/feed_forward_network.py)
+- [GRU Encoder Implementation](natural-language/encoder.py)
+- [Feed Forward Network Layer Implementation From Transformer Architecture](natural-language/feed_forward_network.py)
 
 <!-- ### Time Series
 
@@ -57,15 +63,15 @@ Predictive analytics is the branch of the advanced analytics which is used to ma
 
 Image classification (a.k.a. image categorization) is the task of assigning a set of predefined categories/labels to a groups of pixels or an image.
 
-- [Multi-class flower classification with data augmentation](computer-vision/image-classification-with-data-agumentation.ipynb)
+- [Multi-class Flower Classification With Data Augmentation](computer-vision/image-classification-with-data-agumentation.ipynb)
 
 ![model-acc](computer-vision/images/flower-classification-acc.png)
 ![model-loss](computer-vision/images/flower-classification-loss.png)
 
 `Model Architecture` implementations:
 
-- [LeNet model architecture implementation](computer-vision/le_net.py)
-- [AlexNet model architecture implementation](computer-vision/alex_net.py)
+- [LeNet Model Architecture Implementation](computer-vision/le_net.py)
+- [AlexNet Model Architecture Implementation](computer-vision/alex_net.py)
 
 ### TensorFlow 2 API
 
