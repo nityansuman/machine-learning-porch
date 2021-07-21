@@ -30,7 +30,7 @@ Word embedding is a term used for the representation of words for text analysis,
 
 Text classification (a.k.a. text categorization or text tagging) is the task of assigning a set of predefined categories to an open-ended text.
 
-- [IMDb moview review classification using convolutions](natural-language/text-classification-cnn.ipynb)
+- [IMDb moview review classification](natural-language/classification-playground.ipynb)
 
 ![model-acc](natural-language/images/review-classification-acc.png)
 ![model-loss](natural-language/images/review-classification-loss.png)
