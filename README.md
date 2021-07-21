@@ -35,11 +35,6 @@ Text classification (a.k.a. text categorization or text tagging) is the task of 
 ![model-acc](natural-language/images/review-classification-acc.png)
 ![model-loss](natural-language/images/review-classification-loss.png)
 
-`Model Architecture` implementations:
-
-- [Simple bi-lstm classifier implementation](natural-language/lstm_classifier.py)
-- [Convolutional text classifier implementation](natural-language/conv_classifier.py)
-
 Custom `Layer` implementations:
 
 - [GRU encoder implementation](natural-language/encoder.py)
@@ -69,7 +64,6 @@ Image classification (a.k.a. image categorization) is the task of assigning a se
 
 `Model Architecture` implementations:
 
-- [Simple convolutional classifier implementation](computer-vision/conv_net.py)
 - [LeNet model architecture implementation](computer-vision/le_net.py)
 - [AlexNet model architecture implementation](computer-vision/alex_net.py)
 
