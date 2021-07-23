@@ -23,7 +23,10 @@ Here you will find some of my machine Learning based solution notebooks for Natu
 
 Churn quantifies the number of customers who have left the brand by cancelling their subscription or stop paying for services. This is bad news for any business as it costs five times as much to attract a new customer as it does to keep an existing one. A high customer churn rate will hit any company’s finances hard. By leveraging advanced artificial intelligence techniques like machine learning (ML), one can anticipate potential churners.
 
-- [Churn Prediction Through Usage Analysis](analytics/churn-prediction-through-usage-analysis.ipynb)
+- [Churn Prediction Through Usage Analysis](analytics/churn-prediction-through-usage-analysis.ipynb) - Of all users leaving, the model detect 76% of them (recall) which is a good performance considering our objective is to detect leavers.
+
+![feature-imp](analytics/images/churn-prediction-feature-importance.png)
+![confusion-matrix](analytics/images/churn-prediction-confusion-matrix.png)
 
 ### Natural Language
 
