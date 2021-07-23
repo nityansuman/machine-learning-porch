@@ -25,7 +25,7 @@ Churn quantifies the number of customers who have left the brand by cancelling t
 
 - [Churn Prediction Through Usage Analysis](analytics/churn-prediction-through-usage-analysis.ipynb) - Of all users leaving, the model detect 76% of them (recall) which is a good performance considering our objective is to detect leavers.
 
-![feature-imp](analytics/images/churn-prediction-feature-importance.png)
+![feature-corr](analytics/images/churn-prediction-feature-correlation.png)
 ![confusion-matrix](analytics/images/churn-prediction-confusion-matrix.png)
 
 ### Natural Language
