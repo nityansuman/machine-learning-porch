@@ -1,4 +1,4 @@
-# AI Codebase
+# Awesome AI: 2021
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/27618c4c51a3408091f5dc4f8a4fbf06)](https://app.codacy.com/gh/nityansuman/ai-codebase?utm_source=github.com&utm_medium=referral&utm_content=nityansuman/ai-codebase&utm_campaign=Badge_Grade_Settings)
 ![GitHub LICENSE](https://img.shields.io/github/license/nityansuman/ai-codebase)
