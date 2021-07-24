@@ -27,7 +27,7 @@ Churn quantifies the number of customers who have left the brand by cancelling t
 
 A high customer churn rate will hit any company’s finances hard. By leveraging advanced artificial intelligence techniques like machine learning (ML), one can anticipate potential churners.
 
-- [Churn Prediction Through Usage Analysis](analytics/churn-prediction-through-usage-analysis.ipynb) - Of all users leaving, the model detected 77% (recall on test set) of them which is a good performance considering our objective is to detect leavers.
+- [Churn Prediction Through Usage Analysis](analytics/churn-prediction-through-usage-analysis.ipynb) - The ensemble model (Random Forest) detects 77% (recall on test set) of the leavers which is a good performance considering our objective is to detect leavers.
 
 ![feature-corr](analytics/images/churn-prediction-feature-correlation.png)
 ![confusion-matrix](analytics/images/churn-prediction-confusion-matrix.png)
@@ -47,10 +47,10 @@ Word embedding is a term used for the representation of words for text analysis,
 
 Text classification also known as text tagging or text categorization is the process of categorizing text into organized groups.
 
-- [IMDb Moview Review Classification](natural-language/classification-playground.ipynb)
+- [IMDb Moview Review Classification](natural-language/imdb-movie-review-classification.ipynb) - Model uses a stacked bi-directional LSTM architecture to classify reviews into `positive` and `negative` classes with an accuracy of over 85% on out of sample test dataset.
 
-![model-acc](natural-language/images/review-classification-acc.png)
-![model-loss](natural-language/images/review-classification-loss.png)
+![model-acc](natural-language/images/movie-review-classification-acc.png)
+![model-loss](natural-language/images/movie-review-classification-loss.png)
 
 Custom `Layer` implementations:
 
