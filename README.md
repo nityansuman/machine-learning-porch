@@ -43,9 +43,9 @@ Word embedding is a term used for the representation of words for text analysis,
 - [Word2Vec Embeddings - Skip Gram Model Using Negative Sampling](natural-language/skip-gram-word2vec.ipynb)
 - [Training Embeddings From Scratch Or Use Pre-trained Embeddings](natural-language/embeddings-playground.ipynb)
 
-#### Sentiment Classification
+#### Text Classification
 
-Sentiment classification is the automated process of identifying opinions in text and labeling them as positive, negative, or neutral, based on the emotions.
+Text classification also known as text tagging or text categorization is the process of categorizing text into organized groups.
 
 - [IMDb Moview Review Classification](natural-language/classification-playground.ipynb)
 
