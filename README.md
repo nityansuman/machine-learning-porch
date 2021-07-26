@@ -1,19 +1,15 @@
 # Awesome AI: 2021
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/27618c4c51a3408091f5dc4f8a4fbf06)](https://app.codacy.com/gh/nityansuman/ai-codebase?utm_source=github.com&utm_medium=referral&utm_content=nityansuman/ai-codebase&utm_campaign=Badge_Grade_Settings)
-![GitHub LICENSE](https://img.shields.io/github/license/nityansuman/ai-codebase)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/nityansuman/ai-codebase)
-![GitHub repo size](https://img.shields.io/github/repo-size/nityansuman/ai-codebase)
-![GitHub language count](https://img.shields.io/github/languages/count/nityansuman/ai-codebase)
-![GitHub last commit](https://img.shields.io/github/last-commit/nityansuman/ai-codebase)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/27618c4c51a3408091f5dc4f8a4fbf06)](https://app.codacy.com/gh/nityansuman/awesome-ai-2021?utm_source=github.com&utm_medium=referral&utm_content=nityansuman/awesome-ai-2021&utm_campaign=Badge_Grade_Settings)
+![GitHub LICENSE](https://img.shields.io/github/license/nityansuman/awesome-ai-2021)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/nityansuman/awesome-ai-2021)
+![GitHub repo size](https://img.shields.io/github/repo-size/nityansuman/awesome-ai-2021)
+![GitHub language count](https://img.shields.io/github/languages/count/nityansuman/awesome-ai-2021)
+![GitHub last commit](https://img.shields.io/github/last-commit/nityansuman/awesome-ai-2021)
 
-Artificial intelligence, sometimes called machine intelligence, is intelligence demonstrated by machines, unlike the natural intelligence displayed by humans and animals.
+## Welcome
 
-In the twenty-first century, AI techniques have experienced a resurgence following concurrent advances in computer power, large amounts of data, and theoretical understanding; and AI techniques have become an essential part of the technology industry, helping to solve many challenging problems in computer science, software engineering and operations research.
-
-### Welcome to my GitHub repository
-
-Here you will find some of my machine Learning based solution notebooks for Natural Language Processing & Understanding, Time Series, Computer Vision and everything in between.
+Here you will find some of my AI based solution notebooks for Anaytics, Natural Language Processing, Time Series, Computer Vision and everything in between.
 
 ---
 
