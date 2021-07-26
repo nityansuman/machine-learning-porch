@@ -28,7 +28,7 @@ A high customer churn rate will hit any company’s finances hard. By leveraging
 
 ### Credit Fraud Detection
 
-- [Credit Card Fraud Transaction Detection](analytics/credit-fraud-detection.ipynb) - The bagging ensemble model (Random Forest) was able to achieve 100% (recall on test) of the fraud transactions with almost 0 FPR (false positve rate) on a very highly imbalanced dataset (where only 0.172% transactions where fraudulant) using SMOTE and weighted objective technique.
+- [Credit Card Fraud Transaction Detection](analytics/credit-fraud-detection.ipynb) - The bagging ensemble model (Random Forest) was able to achieve 100% (recall on test) of the fraud transactions with only 9 instances of FPR (false positve rate) on a very highly imbalanced dataset (where only 0.172% transactions where fraudulant) using SMOTE and weighted objective technique.
 
 ![confusion-matrix](analytics/images/fraud-prediction-confusion-matrix.png)
 ![roc](analytics/images/fraud-prediction-roc.png)
