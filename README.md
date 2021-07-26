@@ -17,11 +17,9 @@ Here you will find some of my machine Learning based solution notebooks for Natu
 
 ---
 
-## Codebase
+## Analytics
 
-### Analytics
-
-#### Churn Detection
+### Churn Detection
 
 Churn quantifies the number of customers who have left the brand by cancelling their subscription or stop paying for services. This is bad news for any business as it costs five times as much to attract a new customer as it does to keep an existing one.
 
@@ -32,16 +30,16 @@ A high customer churn rate will hit any company’s finances hard. By leveraging
 ![feature-corr](analytics/images/churn-prediction-feature-correlation.png)
 ![confusion-matrix](analytics/images/churn-prediction-confusion-matrix.png)
 
-#### Credit Fraud Detection
+### Credit Fraud Detection
 
 - [Credit Card Fraud Transaction Detection](analytics/credit-fraud-detection.ipynb) - The bagging ensemble model (Random Forest) was able to achieve 100% (recall on test) of the fraud transactions with almost 0 FPR (false positve rate) on a very highly imbalanced dataset (where only 0.172% transactions where fraudulant) using SMOTE and weighted objective technique.
 
 ![confusion-matrix](analytics/images/fraud-prediction-confusion-matrix.png)
 ![roc](analytics/images/fraud-prediction-roc.png)
 
-### Natural Language
+## Natural Language
 
-#### Embeddings
+### Embeddings
 
 In the context, embeddings are low-dimensional, learned continuous vector representations of discrete variables.
 An embedding is a mapping of a discrete — categorical — variable to a vector of continuous numbers.
@@ -50,7 +48,7 @@ Word embedding is a term used for the representation of words for text analysis,
 - [Word2Vec Embeddings - Skip Gram Model Using Negative Sampling](natural-language/skip-gram-word2vec.ipynb)
 - [Training Embeddings From Scratch Or Use Pre-trained Embeddings](natural-language/embeddings-playground.ipynb)
 
-#### Text Classification
+### Text Classification
 
 Text classification also known as text tagging or text categorization is the process of categorizing text into organized groups.
 
@@ -77,9 +75,9 @@ Predictive analytics is the branch of the advanced analytics which is used to ma
 - [Customer Churn Prediction](structured-data/)
 - [Customer Lifetime Value Prediction](structured-data/) -->
 
-### Computer Vision
+## Computer Vision
 
-#### Image Classification
+### Image Classification
 
 Image classification (a.k.a. image categorization) is the task of assigning a set of predefined categories/labels to a groups of pixels or an image.
 
@@ -93,7 +91,7 @@ Image classification (a.k.a. image categorization) is the task of assigning a se
 - [LeNet Model Architecture Implementation](computer-vision/le_net.py)
 - [AlexNet Model Architecture Implementation](computer-vision/alex_net.py)
 
-### TensorFlow 2 API
+## TensorFlow 2 API
 
 TensorFlow is a free and open-source software library for machine learning. It can be used across a range of tasks but has a particular focus on training and inference of deep neural networks. Tensorflow is a symbolic math library based on dataflow and differentiable programming.
 
