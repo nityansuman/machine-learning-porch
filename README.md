@@ -77,7 +77,7 @@ Predictive analytics is the branch of the advanced analytics which is used to ma
 
 Image classification (a.k.a. image categorization) is the task of assigning a set of predefined categories/labels to a groups of pixels or an image.
 
-- [Multi-class Flower Classification With Data Augmentation](computer-vision/image-classification-with-data-agumentation.ipynb)
+- [Multi-class Flower Classification With Data Augmentation](computer-vision/multi-class-image-classification-with-data-agumentation.ipynb)
 
 ![model-acc](computer-vision/images/flower-classification-acc.png)
 ![model-loss](computer-vision/images/flower-classification-loss.png)
