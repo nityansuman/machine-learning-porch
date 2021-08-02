@@ -1,11 +1,11 @@
-# Awesome AI: 2021
+# Awesome AI
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/27618c4c51a3408091f5dc4f8a4fbf06)](https://app.codacy.com/gh/nityansuman/awesome-ai-2021?utm_source=github.com&utm_medium=referral&utm_content=nityansuman/awesome-ai-2021&utm_campaign=Badge_Grade_Settings)
-![GitHub LICENSE](https://img.shields.io/github/license/nityansuman/awesome-ai-2021)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/nityansuman/awesome-ai-2021)
-![GitHub repo size](https://img.shields.io/github/repo-size/nityansuman/awesome-ai-2021)
-![GitHub language count](https://img.shields.io/github/languages/count/nityansuman/awesome-ai-2021)
-![GitHub last commit](https://img.shields.io/github/last-commit/nityansuman/awesome-ai-2021)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/27618c4c51a3408091f5dc4f8a4fbf06)](https://app.codacy.com/gh/nityansuman/awesome-ai?utm_source=github.com&utm_medium=referral&utm_content=nityansuman/awesome-ai&utm_campaign=Badge_Grade_Settings)
+![GitHub LICENSE](https://img.shields.io/github/license/nityansuman/awesome-ai)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/nityansuman/awesome-ai)
+![GitHub repo size](https://img.shields.io/github/repo-size/nityansuman/awesome-ai)
+![GitHub language count](https://img.shields.io/github/languages/count/nityansuman/awesome-ai)
+![GitHub last commit](https://img.shields.io/github/last-commit/nityansuman/awesome-ai)
 
 ## Welcome
 
