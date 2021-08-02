@@ -13,7 +13,7 @@ Here you will find some of my AI based solution notebooks for Anaytics, Natural 
 
 ### Analytics
 
-- [Churn Prediction Through Usage Analysis](analytics/)
+- [Customer Churn Prediction](analytics/)
 - [Credit Card Fraudulent Transaction Detection](analytics/)
 
 ### Natural Language Processing
