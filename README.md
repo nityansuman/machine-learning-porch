@@ -16,17 +16,17 @@ Here you will find some of my AI based solution notebooks for Anaytics, Natural 
 - [Churn Prediction Through Usage Analysis](analytics/)
 - [Credit Card Fraudulent Transaction Detection](analytics/)
 
-## Natural Language Processing
+### Natural Language Processing
 
 - [Word2Vec Embeddings - Skip Gram Model Using Negative Sampling](natural-language/)
 - [Training Embeddings From Scratch Or Use Pre-trained Embeddings](natural-language/)
 - [IMDb Moview Review Classification](natural-language/)
 
-## Computer Vision
+### Computer Vision
 
 - [Multi-class Flower Classification With Data Augmentation](computer-vision/)
 
-## TensorFlow 2 API
+### TensorFlow 2 API
 
 TensorFlow is a free and open-source software library for machine learning. It can be used across a range of tasks but has a particular focus on training and inference of deep neural networks. Tensorflow is a symbolic math library based on dataflow and differentiable programming.
 
