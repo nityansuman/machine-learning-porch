@@ -20,7 +20,7 @@ Here you will find some of my AI based solution notebooks for Anaytics, Natural 
 
 - [Word2Vec Embeddings - Skip Gram Model Using Negative Sampling](natural-language/)
 - [Training Embeddings From Scratch Or Use Pre-trained Embeddings](natural-language/)
-- [IMDb Moview Review Classification](natural-language/)
+- [IMDb Moview Review Sentiment Classification](natural-language/)
 
 ### Computer Vision
 
