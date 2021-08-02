@@ -11,7 +11,9 @@ A high customer churn rate will hit any company’s finances hard. By leveraging
 ![feature-corr](images/churn-prediction-feature-correlation.png)
 ![confusion-matrix](images/churn-prediction-confusion-matrix.png)
 
-## Credit Card Fraud Detection
+## Credit Card Fraudulent Detection
+
+Fraud detection is a set of processes and analyses that allow businesses to identify and prevent unauthorized financial activity. This can include fraudulent credit card transactions, identify theft, cyber hacking, insurance scams, and more. Companies can incorporate fraud detection into their websites, company policies, employee training, and enhanced security features. The most effective companies combat fraud by using a multifaceted approach that integrates several of these techniques.
 
 - [Credit Card Fraud Transaction Detection](credit-fraud-detection.ipynb) - The bagging based ensemble model (Random Forest) was able to identify 100% (recall on test) of the fraud transactions with only 9 instances of FPR (false positive rate) on a very highly imbalanced dataset (where only 0.172% transactions where fraudulent) using SMOTE and weighted objective function.
 
