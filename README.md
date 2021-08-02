@@ -26,7 +26,7 @@ Here you will find some of my AI based solution notebooks for Anaytics, Natural 
 
 - [Multi-class Flower Classification With Data Augmentation](computer-vision/)
 
-### TensorFlow 2 API
+## TensorFlow 2 API
 
 TensorFlow is a free and open-source software library for machine learning. It can be used across a range of tasks but has a particular focus on training and inference of deep neural networks. Tensorflow is a symbolic math library based on dataflow and differentiable programming.
 
