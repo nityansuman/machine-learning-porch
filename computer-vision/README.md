@@ -9,7 +9,7 @@ Image classification (a.k.a. image categorization) is the task of assigning a se
 ![model-acc](images/flower_classification_acc.png)
 ![model-loss](images/flower_classification_loss.png)
 
-`Model Architecture` implementations:
+Model Architecture Implementations:
 
 - [LeNet Model Architecture Implementation](le_net.py)
 - [AlexNet Model Architecture Implementation](alex_net.py)

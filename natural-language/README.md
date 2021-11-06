@@ -18,7 +18,7 @@ Text classification also known as text tagging or text categorization is the pro
 ![model-acc](images/movie_review_classification_acc.png)
 ![model-loss](images/movie_review_classification_loss.png)
 
-Custom `Layer` implementations:
+Custom Layer Implementations:
 
 - [GRU Encoder Implementation](encoder.py)
 - [Feed Forward Network Layer Implementation From Transformer Architecture](feed_forward_network.py)
