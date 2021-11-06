@@ -1,4 +1,4 @@
-# Natural Language
+# Natural Language Processing
 
 ## Embeddings
 
@@ -13,10 +13,10 @@ Word embedding is a term used for the representation of words for text analysis,
 
 Text classification also known as text tagging or text categorization is the process of categorizing text into organized groups.
 
-- [IMDb Moview Review Sentiment Classification](imdb-movie-review-classification.ipynb) - Implemented a stacked bi-directional LSTM architecture which learns embeddings from scratch and classifies movie reviews into `positive` and `negative` sentiments with an accuracy of over 85% on out of sample test dataset.
+- [IMDb Moview Review Sentiment Classification](imdb-movie-review-classification.ipynb) - Implemented a stacked bi-directional LSTM architecture which learns embeddings from scratch and classifies movie reviews into positive and negative sentiments with an accuracy of over 85% on out of sample test dataset.
 
-![model-acc](images/movie-review-classification-acc.png)
-![model-loss](images/movie-review-classification-loss.png)
+![model-acc](images/movie_review_classification_acc.png)
+![model-loss](images/movie_review_classification_loss.png)
 
 Custom `Layer` implementations:
 
