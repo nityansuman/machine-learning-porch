@@ -6,8 +6,8 @@ Image classification (a.k.a. image categorization) is the task of assigning a se
 
 - [Multi-class Flower Classification With Data Augmentation](multi-class-image-classification-with-data-augmentation.ipynb)
 
-![model-acc](images/flower-classification-acc.png)
-![model-loss](images/flower-classification-loss.png)
+![model-acc](images/flower_classification_acc.png)
+![model-loss](images/flower_classification_loss.png)
 
 `Model Architecture` implementations:
 
