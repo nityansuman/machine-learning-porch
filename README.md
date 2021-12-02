@@ -21,7 +21,7 @@ A high customer churn rate will hit any company’s finances hard. By leveraging
 
 - [Customer Churn Prediction Through Usage Analysis](churn-prediction-through-usage-analysis.ipynb) - The bagging based ensemble model (Random Forest) was able to detect 77% (recall on test set) of the churners with an accuracy of above 70% on an imbalanced dataset using random over-sampling, which is a good performance considering our objective is to detect churners.
 
-#### Credit Card Fraudulent Transaction Detection
+## Credit Card Fraudulent Transaction Detection
 
 Fraud detection is a set of processes and analyses that allow businesses to identify and prevent unauthorized financial activity. This can include fraudulent credit card transactions, identify theft, cyber hacking, insurance scams, and more. Companies can incorporate fraud detection into their websites, company policies, employee training, and enhanced security features. The most effective companies combat fraud by using a multifaceted approach that integrates several of these techniques.
 

@@ -15,9 +15,6 @@ Text classification also known as text tagging or text categorization is the pro
 
 - [IMDb Moview Review Sentiment Classification](imdb-movie-review-classification.ipynb) - Implemented a stacked bi-directional LSTM architecture which learns embeddings from scratch and classifies movie reviews into positive and negative sentiments with an accuracy of over 85% on out of sample test dataset.
 
-![model-acc](images/movie_review_classification_acc.png)
-![model-loss](images/movie_review_classification_loss.png)
-
 Custom Layer Implementations:
 
 - [GRU Encoder Implementation](encoder.py)
