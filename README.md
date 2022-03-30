@@ -1,10 +1,10 @@
 # Predictive Analytics Notebooks
 
-![GitHub LICENSE](https://img.shields.io/github/license/nityansuman/awesome-ai)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/nityansuman/awesome-ai)
-![GitHub repo size](https://img.shields.io/github/repo-size/nityansuman/awesome-ai)
-![GitHub language count](https://img.shields.io/github/languages/count/nityansuman/awesome-ai)
-![GitHub last commit](https://img.shields.io/github/last-commit/nityansuman/awesome-ai)
+![GitHub LICENSE](https://img.shields.io/github/license/nityansuman/predictive-analytics)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/nityansuman/predictive-analytics)
+![GitHub repo size](https://img.shields.io/github/repo-size/nityansuman/predictive-analytics)
+![GitHub language count](https://img.shields.io/github/languages/count/nityansuman/predictive-analytics)
+![GitHub last commit](https://img.shields.io/github/last-commit/nityansuman/predictive-analytics)
 
 ### Customer Churn Prediction Through Usage Analysis
 
