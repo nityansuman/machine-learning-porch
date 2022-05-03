@@ -1,10 +1,7 @@
-# Predictive Analytics Notebooks
+# Machine Learning Porch
 
-![GitHub LICENSE](https://img.shields.io/github/license/nityansuman/predictive-analytics)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/nityansuman/predictive-analytics)
-![GitHub repo size](https://img.shields.io/github/repo-size/nityansuman/predictive-analytics)
-![GitHub language count](https://img.shields.io/github/languages/count/nityansuman/predictive-analytics)
-![GitHub last commit](https://img.shields.io/github/last-commit/nityansuman/predictive-analytics)
+![GitHub LICENSE](https://img.shields.io/github/license/nityansuman/machine-learning-porch)
+![GitHub repo size](https://img.shields.io/github/repo-size/nityansuman/machine-learning-porch)
 
 ### Customer Churn Prediction Through Usage Analysis
 
